@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+	Website Tugas 3
+</title>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({
+            left: '250px',
+            opacity: '0.5',
+            height: '150px',
+            width: '550px'
+        });
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("btn").click(function(){
+        $("#w3s").attr("href", "https://www.youtube.com/channel/UCJpUoMsNA5TeFGIL3oUQUIg?view_as=subscriber");
+    });
+});
+</script> 
+<script>
+$(document).ready(function(){
+    $("div").last().css("background-color", "yellow");
+});
+</script>
+</head>
+
+<body>
+<h1>Pengimplementasian jQuery Animated, jQuery Set Content and Attributes, dan jQuery Filtering</h1>
+<button>Click Animation</button>
+<div 
+style="background:Blue;height:100px;width:100px;position:middle;">
+</div>
+<p style="text-align: center;">
+<a href="https://www.youtube.com/channel/UCJpUoMsNA5TeFGIL3oUQUIg?view_as=subscriber" id="w3s">youtube.com</a>
+</p>
+
+<div style="border: 1px solid black;position: middle;">
+  <p>Nama saya Argo Galih Pribadi</p>
+</div>
+<br>
+
+<div style="border: 1px solid black;position: middle;">
+  <p>Ini Website untuk Tugas 3</p>
+</div>
+<br>
+
+<div style="border: 1px solid black;position: middle;">
+  <p>Ini Tugas 3</p>
+</div>
+
+</body>
+</html>
